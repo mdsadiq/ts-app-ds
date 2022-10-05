@@ -42,17 +42,17 @@ export default [
       }),
     ],
   },
-  {
-    input: "src/components/index.ts",
+//   {
+//     input: "src/components/index.ts",
 
-    plugins: [dts()],
-    output: [
-      {
-        file: `dist/index.d.ts`,
-        // file: `dist/types/index.d.js`,
-        format: "es",
-        sourcemap: true,
-      },
-    ],
-  },
+//     plugins: [dts()],
+//     output: [
+//       {
+//         file: `dist/index.d.ts`,
+//         // file: `dist/types/index.d.js`,
+//         format: "es",
+//         sourcemap: true,
+//       },
+//     ],
+//   },
 ];
